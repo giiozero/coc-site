@@ -1,0 +1,48 @@
+<style>
+.teste {
+  position: relative;
+  display: inline-block;
+}
+
+.teste:hover:before {
+  content: '';
+  display: block;
+  background: url('images/codcla.png');
+  width: 478px;
+  height: 117px;
+  position: absolute;
+  top: 0;
+  left:0;
+  margin-left:15px;
+}
+</style>
+
+<div class="form_settings">
+<form method="POST" action="?menu=cadastre">
+<table>
+<tr><td>
+<label>Seu Nome:</label>
+</td><td>
+<input type="text" name="nome" id="nome" style="width:150px;" maxlength="15" placeholder="Nick no jogo">
+</td></tr>
+<tr><td>
+<label>C&oacute;digo do Cl&atilde;:</label>
+</td><td>
+<input type="text" name="codcla" id="codcla" style="width:150px;" maxlength="15" placeholder="Cod do Cla"> <div class="teste">?<div>
+</td></tr>
+<tr><td>
+<label>Login:</label>
+</td><td>
+<input type="text" name="usuario" id="usuario" style="width:150px;" maxlength="15"  placeholder="Nome para Login">
+</td></tr>
+<tr><td>
+<label>Senha:</label>
+</td><td>
+<input type="password" name="senha" id="senha" style="width:150px;" maxlength="10" placeholder="Senha para Login">
+</td>
+</tr>
+<tr><td colspan=2 align="center">
+<input class="submit" type="submit" value="Cadastrar" id="cadastrar" name="cadastrar" style="margin-left:40%;" >
+</td></tr></table>
+
+</div>

@@ -1,0 +1,46 @@
+CREATE TRIGGER TGR_Novo_User AFTER INSERT
+ON usuarios
+
+FOR EACH
+ROW 
+BEGIN 
+INSERT INTO usuario_tropas
+VALUES ("(SELECT id FROM usuarios ORDER BY id DESC LIMIT 1)",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0",  "0","0","0","0"
+       );
+
+
+$Load = 1;
+					$Ides= '';
+					if ($Load == 1) {
+						while ($TropaTesteSql = mysql_fetch_array($TropaTeste)){
+							$Load=0;
+							$Ides = $TropaTesteSql['id'];
+						}
+					}
+					if ($Ides == $ID) {
+						$Load=1;
+					} else {
+						//Código Sql
+					}
+					
+					
+					
+						function ObterTresMelhores($PegaTropa, $PegaNome){
+		$PrimeiraTropa='';
+		$PrimeiroNome='';
+		$SegundaTropa='';
+		$SegundoNome='';
+		$TerceiraTropa='';
+		$TerceiroNome='';
+		
+		if ($PrimeiraTropa < $PegaTropa) {
+			$PrimeiraTropa=$PegaTropa;
+			$PrimeiroNome=$PegaNome;
+		} else if ($SegundaTropa < $PegaTropa) {
+			$SegundaTropa=$PegaTropa;
+			$SegundoNome=$PegaNome;
+		} else if ($TerceiraTropa < $PegaTropa) {
+			$TerceiraTropa=$PegaTropa;
+			$TerceiraNome=$PegaNome;
+		}
+	}

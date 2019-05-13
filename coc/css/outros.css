@@ -1,0 +1,131 @@
+td, th {
+height:29px;
+}
+	.tabela {
+		background-color:white;
+		font-size:12px;
+        color:black;
+		border-radius:10px 10px 10px 10px;
+        padding-bottom:3px;
+        border-collapse:collapse;
+	} 
+	.tabela th {
+		text-align:center;
+		background-color:#5A5859;
+		color:white;
+
+	}
+	
+	.tabela td:first-child {
+		color:red;
+		text-align:center;
+		font-weight:bold;
+
+	}
+	.tabela td:first-child, th:first-child {
+		width:10%;
+	}
+	.tabela td:nth-child(2){
+		width:50%;
+	}
+/*
+	.tabela tr:hover, .tabela .disp-atk:hover {
+	  background: yellow;
+	  font-size:13px;
+	  filter:alpha(opacity=10);
+	  opacity:0.8;
+	}*/
+	.tabela tr:first-child,.tabela tr:nth-child(2)  {
+		opacity:1.0;
+        font-size:12px;
+	}
+	
+	
+	.tabela td:nth-child(3),.tabela td:nth-child(4)  {
+		width:20%;
+	}
+	
+	.tabela .disp-atk {
+		background-color:#C3D79A;
+	}
+        .tabela .real-atk {
+		background-color:#F9BF8F;
+	}
+	
+	.tabelacampo {
+        background-color:white;
+		font-size:12px;
+        color:black;
+		width:140px;
+		border-radius:10px;
+        padding-bottom:3px;
+		border-collapse:collapse;
+
+	} 
+	.tabelacampo td:first-child {
+		color:red;
+		text-align:center;
+		font-weight:bold;
+
+	}
+	.tabelacampo th {
+		background-color:#5A5859;
+		color:white;
+             
+	}
+       .tabelacampo th:first-child, .tabelacampo td:first-child{
+		
+		width:2%;
+		text-align:center;
+	}
+	
+	.tabelacampo td:last-child {
+		text-align:center;
+                
+	}
+	.disp-table {
+		background-color:#C3D79A;
+		color:black;
+		border-radius:10px;
+		width:15%;
+		height:60px;
+	}
+	
+	.realizado-table  {
+		width:15%;
+		height:60px;
+		background-color:#F9BF8F;
+		color:black;
+		border-radius:10px;
+	}
+	.espaco-table {
+		width:70%;
+	}
+	
+	.rank {
+		width:140px;
+		color:white;
+		border-collapse:collapse;
+		border-radius:6px;
+	}
+	.rank td {
+		font-size:15px;
+                height:25px;
+	}
+	.rank td:first-child{
+		padding-left:10px;
+	}
+	.rank:first-child {
+		background-color:#414141;
+		margin-bottom:3px;
+	}
+	.rank:last-child {
+		background-color:#FE0000;
+	}
+	.tabelaprincipal td:first-child{
+		width:400px;
+	}
+.tabelaprincipal td, tabelaprincipal  th{
+padding:5px;
+margin: 5px;
+} 

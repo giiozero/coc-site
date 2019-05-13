@@ -1,0 +1,28 @@
+Update 0.1
+ - Arquivos Alterados - 
+* Inicio.php
+Menus - Um bug em que fazia aparecer a frase de "conecte-se ou crie sua conta" em todas as páginas antes de logar
+
+* tbl_tropas.php
+Fotos - Alterado ordem entre o nome e a foto (foto em cima, nome em baixo) para melhor visualização e organização da página.
+Tropas - Atualizado InputText para receber valor aleatório
+Imagens - Alterado Links para imagens e tamanhos de imagens (width, height)
+
+* cadastro.html
+Input Text - Adicionado novo InputText para inserção do código do clã ao se Cadastrar
+
+* cadastro.php
+Código do Clã - Adicionadas Configurações para que inserção do código do clã funcione corretamente
+
+*tbl_tropas_melhores.php
+Criado - Mostra Tropa e 01 resultado para quem tem a melhor tropa
+
+ - Adição de Arquivos - 
+* images/codcla.png
+* tbl_tropas_melhores.php
+ - Banco de Dados - 
+usuarios (cla) - Alterado de int (3) para varchar (10)
+usuarios (cla) - Alterados todos cadastros para código real do clã
+
+ - Imagens alteradas
+Pekka - Dragon - Balao - Barbaro - Corredor
