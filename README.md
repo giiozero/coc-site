@@ -1,5 +1,5 @@
 # coc-site
-Projeto iniciado e parado em 2015. 
+Projeto iniciado e parado em 2015 - incompleto. 
 
 Problema: 
 - Muitos membros atacando gente muito fraca apenas para acumular pontos, fazendo com que a guerra fosse perdida por sobrar gente média/ forte que nenhum outro membro conseguia atacar.
