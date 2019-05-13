@@ -20,7 +20,7 @@ $Load = 1;
 					if ($Ides == $ID) {
 						$Load=1;
 					} else {
-						//Código Sql
+						//CÃ³digo Sql
 					}
 					
 					
